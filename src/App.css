@@ -1,0 +1,83 @@
+nav{
+  background-color: rgb(92, 92, 177);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+
+.container{
+  background-color: bisque;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+}
+
+.container>form{
+  display: flex;
+  flex-direction: column;
+
+}
+.container>h1{
+  text-align: center;
+  margin: 30px;
+  font-size: 2.5rem;
+
+}
+
+input,textarea,button{
+  padding: 20px;
+  border: 1px solid rgb(44, 37, 37);
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+button{
+  border: none;
+  cursor: pointer;
+  background-color: rgb(70, 62, 62);
+  color: white;
+
+}
+*{
+  /* it is used for debugging */
+  /* border :1px solid red; */
+}
+.task{
+  display:  flex;
+background-color: white;
+padding: 10px;
+border-radius: 5px;
+margin: 20px 0;
+align-items: center;
+}
+.task span{
+  color: rgb(35, 31, 31);
+}
+.task>div{
+  width : 100%;
+}
+.task button{
+
+  /* height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid red; */
+
+  border-radius: 100%;
+  width: 10%;
+  height: 10%;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: red;
+}
+.task button:hover{
+  background-color: black;
+}
